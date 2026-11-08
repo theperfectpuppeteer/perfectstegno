@@ -8,15 +8,10 @@ The archive uses encoded transmissions, a recovered witness statement, and a lin
 
 ## Publishing
 
-This repository is prepared for GitHub Pages.
+The repository includes a GitHub Pages deployment workflow. GitHub Pages must be enabled for this repository with **Settings → Pages → Build and deployment → GitHub Actions**. After that, pushes to `main` will deploy the static site automatically.
 
-1. Open **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select **main** and **/(root)**, then save.
-4. Open the Pages URL once GitHub finishes publishing.
-
-The site is static and requires no build command.
+The site requires no build command.
 
 ## Note
 
-Puzzle gates are client-side and are intended for an informal ARG, not for protecting private information.
+Puzzle gates are client-side and intended for an informal ARG, not for protecting private information.
